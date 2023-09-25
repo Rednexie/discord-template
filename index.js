@@ -51,6 +51,7 @@ for(command of commandFiles){
 const slashCommandFiles = fs.readdirSync("./slashes/").filter(file => file.endsWith(".js"))
 for(slashCommand of slashCommandFiles){
     const cmd = require(`./slashes/${slashCommand}`);
+    // .push(cmd.data.toJSON())
     client.slashes.set(cmd.config.name, cmd)
 }
 const eventFiles = fs.readdirSync("./events/").filter(file => file.endsWith(".js"))
