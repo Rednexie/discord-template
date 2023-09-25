@@ -1,0 +1,10 @@
+{
+  "alias": true,
+  "prefix": "!",
+  "presence": "rednexie guilded.js",
+  "ratelimit": 0.5,
+  "logFile": "./log.txt",
+  "admins": [
+    "your-guilded-id"
+  ]
+}
