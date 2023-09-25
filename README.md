@@ -1,4 +1,4 @@
-# Guilded Bot Template 
+# Discord Bot Template 
 Features:
 - Rate Limiting
 - Admin System
