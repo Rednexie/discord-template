@@ -5,4 +5,32 @@
     "dotenv": "^16.3.1",
     "perma.db": "^1.0.5"
   }
+"name": "discord-template",
+  "description": "bot template for discord.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rednexie/discord-template.git"
+  },
+  "keywords": [
+    "guilded",
+    "bot",
+    "discord.gg",
+    "discord",
+    "bot",
+    "commands",
+    "template",
+    "nodejs",
+    "server"
+  ],
+  "author": "Rednexie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rednexie/discord-template/issues"
+  },
+  "homepage": "https://github.com/Rednexie/discord-template#readme"
 }
