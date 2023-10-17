@@ -1,7 +1,7 @@
 {
   "alias": true,
   "prefix": "!",
-  "presence": "rednexie guilded.js",
+  "presence": "discord template",
   "ratelimit": 0.5,
   "logFile": "./log.txt",
   "admins": [
