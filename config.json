@@ -5,6 +5,6 @@
   "ratelimit": 0.5,
   "logFile": "./log.txt",
   "admins": [
-    "your-guilded-id"
+    "your-discord-id"
   ]
 }
