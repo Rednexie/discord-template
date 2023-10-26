@@ -20,7 +20,7 @@ consoled.bright.white("--------------------------------------------")
 
 let banned;
 banned = db.getSync("banned");
-banned = banned !== null ? JSON.parse(banned) : []
+banned = banned !== null && banned !== undefined ? JSON.parse(banned) : []
 banned.forEach(ban => {
     cache.set(`ban@${ban}`, true)
 })
