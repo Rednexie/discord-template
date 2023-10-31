@@ -34,8 +34,8 @@ const client = new Client({
       GatewayIntentBits.MessageContent,
     ],
   });
-
-client.login(process.env.TOKEN)
+const token = process.env.TOKEN || config.token;
+client.login(token)
   .catch(err => consoled.bright.red("client login error, please check your token.") && process.exit(1))
 
 client.commands = new Collection();
