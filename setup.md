@@ -13,15 +13,23 @@
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
 - Open a terminal(Ctrl + Alt + T)
 - Navigate to the directory you want to download the repository in, for example: `cd Desktop`.
-- Clone the repository: ```sh
-git clone https://github.com/Rednexie/discord-template```
-- Go inside the repository workspace(folder): ```sh
-cd discord-template```
-- Install the required dependencies: ```sh
-npm i```
+- Clone the repository:
+```sh
+git clone https://github.com/Rednexie/discord-template
+```
+- Go inside the repository workspace(folder):
+```sh
+cd discord-template
+```
+- Install the required dependencies:
+```sh
+npm i
+```
 - Get your discord bot token and paste it into the token sections in the files: *config.json* or *.env* 
-- When the installation is done, start the bot: ```sh
-node . ```
+- When the installation is done, start the bot:
+```sh
+node .
+```
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
 # Download as Zip (Recommended for Windows Systems)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
