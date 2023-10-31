@@ -33,6 +33,7 @@ npm i
 ```sh
 node .
 ```
+- Wait for the bot to log in, after a second or so it should be successfully running.
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
 # Download as Zip (Recommended for Windows Systems)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
@@ -42,6 +43,7 @@ node .
 - Install the required dependencies by typing: `npm i`
 - Get your discord bot token and paste it into the token sections in the files: *config.json* or *.env*
 - When the installation is done, start the bot: `node .`
+- Wait for the bot to log in, after a second or so it should be successfully running.
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
 # Cloud hosting platforms (such as Replit, Glitch and Codespaces):
 - Platforms like github codespaces, replit, glitch etc. are cloud hosting platforms.
@@ -49,3 +51,9 @@ node .
    - You can click the links i provided to import the repo on glitch, codespaces or replit.
    - Or find the github repository import section, and paste the [link](https://github.com/Rednexie/discord-template) of the repository.
 - When the importing process is done, open a terminal
+- Install the required dependencies by typing: `npm i`
+- Use the platform's integrated secrets feature, or paste your discord bot token into *config.json*.
+- Wait for the bot to log in, after a second or so it should be successfully running.
+- You have to open the website to start the bot or use keep-alive scripts.
+# Thanks for using discord-template
+Support me by giving a star to this repository.
