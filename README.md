@@ -1,7 +1,5 @@
----
-a
-
-
+<hr>
+<br>
 # Discord Bot Template 
 Features:
 - Rate Limiting
