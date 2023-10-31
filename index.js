@@ -9,6 +9,7 @@ const os = require("os")
 
 const consoled = require("consoled.js")
 
+const config = require("./config.json")
 const cache = require("./modules/cache")
 const db = new PermaDB('perma.db', { minimize: true, memory: false, });
 
