@@ -19,8 +19,22 @@ start the server, type: `node .`
 - Navigate to the directory you want to download the repository in, for example: `cd Desktop`.
 - Clone the repository: `git clone https://github.com/Rednexie/discord-template`.
 - Go inside the repository workspace(folder): `cd discord-template`.
-- Install the required dependencies: `npm i`.
-- Get your discord bot token and paste it into *config.json* or *.env*.
+- Install the required dependencies: `npm i`
+- Get your discord bot token and paste it into the token sections in the files: *config.json* or *.env* 
 - When the installation is done, start the bot: `node .`
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
----
+# Download as Zip (Recommended for Windows Systems)
+- Make sure you have [nodejs](https://nodejs.org) installed on your device.
+- Download the repository as [zip](https://github.com/Rednexie/discord-template/archive/refs/heads/main.zip)
+- Unzip the zip file, and open the folder in the file explorer.
+- Open a terminal inside the repository workspace(folder) by right clicking to the file explorer or entering the text `cmd` instead of the file path above
+- Install the required dependencies by typing: `npm i`
+- Get your discord bot token and paste it into the token sections in the files: *config.json* or *.env*
+- When the installation is done, start the bot: `node .`
+- In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
+# Cloud hosting platforms:
+- Platforms like github codespaces, replit, glitch etc. are cloud hosting platforms.
+- Import the repository on the platform
+   - You can click the links i provided to import the repo on glitch, codespaces or replit.
+   - Or find the github repository import section, and paste the [link](https://github.com/Rednexie/discord-template) of the repository.
+- When the importing process is done, open a terminal
