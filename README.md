@@ -5,7 +5,7 @@ Features:
 - User Ban/Unban
 - Command Aliases
 # Dependencies
-- guilded.js
+- discord.js
 - perma.db
 - dotenv
 - consoled.js
