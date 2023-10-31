@@ -1,17 +1,17 @@
-<hr>
-<br>
+
 # Discord Bot Template 
 Features:
 - Rate Limiting
 - Admin System
 - User Ban/Unban
 - Command Aliases
----
+
 # Dependencies
 - discord.js
 - perma.db
 - dotenv
 - consoled.js
+
 ---
 # Links
 [Download as Zip](https://github.com/Rednexie/discord-template/archive/refs/heads/main.zip)
