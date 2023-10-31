@@ -12,6 +12,13 @@ Features:
 - dotenv
 - consoled.js
 
+
+ 
+# Setup & Usage
+You can setup the bot by following the instructions for your preferred platform [here](https://github.com/Rednexie/discord-template/blob/main/setup.md)
+
+
+
 ---
 # Links
 [Download as Zip](https://github.com/Rednexie/discord-template/archive/refs/heads/main.zip)
