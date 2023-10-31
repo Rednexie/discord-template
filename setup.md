@@ -48,7 +48,7 @@ node .
 - Wait for the bot to log in, after a second or so it should be successfully running.
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
 # Cloud hosting platforms (such as Replit, Glitch and Codespaces):
-# (for low-ping and always on)
+# (Recommended for low-ping and always on)
 - Platforms like github codespaces, replit, glitch etc. are cloud hosting platforms.
 - Import the repository on the platform
    - You can click the links i provided to import the repo on glitch, codespaces or replit.
