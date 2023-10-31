@@ -1,7 +1,7 @@
 # How to Setup?
-download, clone or import the repository.
+- download, clone or import the repository based on your choice.
 <br>
-navigate to the main working directory.
+navigate to the main working directory, or open the project folder.
 <br>
 open a terminal.
 <br>
@@ -17,11 +17,15 @@ start the server, type: `node .`
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
 - Open a terminal(Ctrl + Alt + T)
 - Navigate to the directory you want to download the repository in, for example: `cd Desktop`.
-- Clone the repository: `git clone https://github.com/Rednexie/discord-template`.
-- Go inside the repository workspace(folder): `cd discord-template`.
-- Install the required dependencies: `npm i`
+- Clone the repository: ```bash
+git clone https://github.com/Rednexie/discord-template```
+- Go inside the repository workspace(folder): ```bash
+cd discord-template```
+- Install the required dependencies: ```bash
+npm i```
 - Get your discord bot token and paste it into the token sections in the files: *config.json* or *.env* 
-- When the installation is done, start the bot: `node .`
+- When the installation is done, start the bot: ```bash
+node . ```
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
 # Download as Zip (Recommended for Windows Systems)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
