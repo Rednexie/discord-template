@@ -1,13 +1,13 @@
 # How to Setup?
 - download, clone or import the repository based on your choice.
 <br>
-navigate to the main working directory, or open the project folder.
+- navigate to the main working directory, or open the project folder.
 <br>
-open a terminal.
+- open a terminal.
 <br>
-install the required dependencies, do: `npm i`
+- install the required dependencies, do: `npm i`
 <br>
-start the server, type: `node .`
+- start the server, type: `node .`
 <br>
 <br>
 
