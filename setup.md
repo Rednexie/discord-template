@@ -12,7 +12,7 @@ start the server, type: `node .`
 <br>
 
 
----
+
 # Git Clone (Recommended for Unix/Linux Systems or Termux)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
 - Open a terminal(Ctrl + Alt + T)
