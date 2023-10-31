@@ -1,4 +1,5 @@
 {
+  "token": "discord.com/developers/applications>New Application>Bot>Reset/Create Token",
   "alias": true,
   "prefix": "!",
   "presence": "discord template",
