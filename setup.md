@@ -43,7 +43,7 @@ node .
 - Get your discord bot token and paste it into the token sections in the files: *config.json* or *.env*
 - When the installation is done, start the bot: `node .`
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
-# Cloud hosting platforms:
+# Cloud hosting platforms (such as Replit, Glitch and Codespaces):
 - Platforms like github codespaces, replit, glitch etc. are cloud hosting platforms.
 - Import the repository on the platform
    - You can click the links i provided to import the repo on glitch, codespaces or replit.
