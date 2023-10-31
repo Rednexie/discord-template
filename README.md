@@ -9,6 +9,7 @@ Features:
 - perma.db
 - dotenv
 - consoled.js
+---
 # Links
 [Download as Zip](https://github.com/Rednexie/discord-template/archive/refs/heads/main.zip)
 
@@ -16,4 +17,7 @@ Features:
 [Run on Replit](https://repl.it/github/Rednexie/discord-template)
 
 
-[Import with Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/Rednexie/discord-template)
+[Import into Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/Rednexie/discord-template)
+
+
+[Create Github Codespace](https://github.com/codespaces/new?quickstart=1&name=discordtemplate&repo=Rednexie/discord-template)
