@@ -9,7 +9,8 @@
 
 
 
-# Git Clone (Recommended for Unix Based Systems(Linux/Mac) or Termux)
+# Git Clone 
+# (Recommended for Unix Based Systems(Linux/Mac) or Termux)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
 - Open a terminal(Ctrl + Alt + T)
 - Navigate to the directory you want to download the repository in, for example:
@@ -35,7 +36,8 @@ node .
 ```
 - Wait for the bot to log in, after a second or so it should be successfully running.
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
-# Download as Zip (Recommended for Windows Systems)
+# Download as Zip 
+# (Recommended for Windows Systems or unfamiliar users)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
 - Download the repository as [zip](https://github.com/Rednexie/discord-template/archive/refs/heads/main.zip)
 - Unzip the zip file, and open the folder in the file explorer.
@@ -46,6 +48,7 @@ node .
 - Wait for the bot to log in, after a second or so it should be successfully running.
 - In case of errors, create an [issue](https://github.com/Rednexie/discord-template/issues).
 # Cloud hosting platforms (such as Replit, Glitch and Codespaces):
+# (for low-ping and always on)
 - Platforms like github codespaces, replit, glitch etc. are cloud hosting platforms.
 - Import the repository on the platform
    - You can click the links i provided to import the repo on glitch, codespaces or replit.
