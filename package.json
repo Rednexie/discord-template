@@ -4,8 +4,8 @@
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
     "perma.db": "^1.0.5"
-  }
-"name": "discord-template",
+  },
+  "name": "discord-template",
   "description": "bot template for discord.js",
   "version": "1.0.0",
   "main": "index.js",
