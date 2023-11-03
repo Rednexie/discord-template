@@ -24,9 +24,11 @@ module.exports = {
     let cmd = messageArray[0];
     let args = messageArray.slice(1);
 
+    if(message.mentions.users.first() == client.user) return require("../commands/help").run(client, message, ['the bot was mentioned in the message'])
+
     //Check for prefix
     if (!cmd.startsWith(prefix)) return
-    if(cache.has(`ratelimit@${message.author.id}`)) return message.reply("rate limited")
+    if(cache.has(`ratelimit@${message.author.id}`)) return //message.reply("rate limited")
     if(!isNaN(Number(ratelimit)) && Number(ratelimit) > 0){
       cache.set(`ratelimit@${message.author.id}`, ratelimit)
       cache.expire(`ratelimit@${message.author.id}`, ratelimit * 1000)
@@ -47,8 +49,8 @@ module.exports = {
       }
       return
     }
-    
-    
+
+
     try {
       await commands.run(client, message, args);
     } catch (error) {

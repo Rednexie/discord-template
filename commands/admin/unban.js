@@ -1,8 +1,7 @@
-const { prefix } = require("../../config.json")
+const { prefix, admins } = require("../../config.json")
 const { PermaDB } = require("perma.db")
 const db = new PermaDB('perma.db', { minimize: true, memory: false, });
 const cache = require("../../modules/cache")
-const { admins } = require("../../config.json")
 
 module.exports = {
     config: {

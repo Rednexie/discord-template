@@ -25,8 +25,12 @@ module.exports = {
             name: prefix + "help",
             value: "shows the command help menu."
           },
+          {
+            name: prefix + "short",
+            value: "shortens the given url."
+          },
         ]
       }
-      message.reply({ content: "help menu", embeds: [embed]})
+      message.reply({ content: args[0] == "the bot was mentioned in the message" ? "hello!" : "help menu", embeds: [embed]})
     }
   }

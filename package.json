@@ -3,14 +3,19 @@
     "consoled.js": "^1.0.4",
     "discord.js": "^14.13.0",
     "dotenv": "^16.3.1",
-    "perma.db": "^1.0.5"
-  }
-"name": "discord-template",
+    "https": "^1.0.0",
+    "perma.db": "^1.0.9"
+  },
+  "name": "discord-template",
   "description": "bot template for discord.js",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon .",
+    "cover": "istanbul --instrument cover .",
+    "mon": "npm exec nodemon .",
+    "start": "node .",
+    "run": "node ."
   },
   "repository": {
     "type": "git",
@@ -32,5 +37,12 @@
   "bugs": {
     "url": "https://github.com/Rednexie/discord-template/issues"
   },
-  "homepage": "https://github.com/Rednexie/discord-template#readme"
+  "homepage": "https://github.com/Rednexie/discord-template#readme",
+  "engines": {
+    "node": ">=16"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5",
+    "nodemon": "^3.0.1"
+  }
 }

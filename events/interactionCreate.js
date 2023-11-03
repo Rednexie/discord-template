@@ -3,14 +3,14 @@ module.exports = {
         name: 'interactionCreate',
         once: false,
     },
-    execute: async (interaction, bot) => {
+    execute: async (interaction, client) => {
       if (!interaction.isCommand()) return;
       const cmd = interaction.commandName;
       const slash = client.slashes.get(cmd)
       if (!slash) return
         
       try {
-        await slash.execute(interaction, bot);
+        await slash.run(interaction, client);
       } catch (error) {
         // Handle any errors
         console.error(error);

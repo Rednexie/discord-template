@@ -47,13 +47,13 @@ client.aliases = new Collection();
 const commandFiles = fs.readdirSync("./commands/").filter(file => file.endsWith(".js"));
 for(command of commandFiles){
     const cmd = require(`./commands/${command}`);
-    if(cmd && cmd.config?.name) client.commands.set(cmd.config.name, cmd);
+    if(cmd && cmd.config && cmd.config.name) client.commands.set(cmd.config.name, cmd);
 }
 const slashCommandFiles = fs.readdirSync("./slashes/").filter(file => file.endsWith(".js"))
 for(slashCommand of slashCommandFiles){
     const cmd = require(`./slashes/${slashCommand}`);
-    if(!cmd.config) return;
-    client.slashes.set(cmd.config.name, cmd)
+    if(!cmd) return;
+    else client.slashes.set(cmd.name, cmd)
 }
 const eventFiles = fs.readdirSync("./events/").filter(file => file.endsWith(".js"))
 for(event of eventFiles){
@@ -76,8 +76,10 @@ for(folder of commandSubFolders){
     }
 }
 
-consoled.green(`${slashCommandFiles.length} slash commands loaded.`)
-consoled.green(`${commandFiles.length} bot commands loaded.`)
-consoled.green(`${commandSubFolders.length} command subfolders readed.`)
-consoled.green(`${eventFiles.length} event listeners loaded.`)
+consoled.green(`${slashCommandFiles.length} slash ${slashCommandFiles.length > 1 ? "commands" : "command"} loaded.`)
+consoled.green(`${commandFiles.length} bot ${commandFiles.length > 1 ? "commands" : "command"} loaded.`)
+consoled.green(`${commandSubFolders.length} command ${commandSubFolders.length > 1 ? "subfolders" : "subfolder"} readed.`)
+consoled.green(`${eventFiles.length} event ${eventFiles.length > 1 ? "listeners" : "listener"} activated.`)
 consoled.blue("perma.db is only using: " + (fs.statSync("perma.db").size / 1024).toFixed(2) + "kb of the storage")
+
+log("[" + new Date().toLocaleString() + "] Server Was Started, Template Loaded.")
