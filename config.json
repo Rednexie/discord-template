@@ -2,10 +2,15 @@
   "token": "discord.com/developers/applications>New Application>Bot>Reset/Create Token",
   "alias": true,
   "prefix": "!",
-  "presence": "discord template",
+  "activity": {
+    "presence": "discord-template",
+    "status": "idle"
+  },
   "ratelimit": 0.5,
   "logFile": "./log.txt",
+  "guild_id": "discord>server>right click>copy server id(developer mode requred)",
+  "application_id": "discord.com/developers/applications>application id",
   "admins": [
-    "your-discord-id"
+    "discord>profile(accounts menu)>copy user id(developer mode requred)"
   ]
 }
