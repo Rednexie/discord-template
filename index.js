@@ -37,7 +37,7 @@ const client = new Client({
   });
 const token = process.env.TOKEN || config.token;
 client.login(token)
-  .catch(err => consoled.bright.red("client login error, please check your token.") && process.exit(1))
+  .catch(err => consoled.bright.red("client login error, please check your token and intents.") && process.exit(1))
 
 client.commands = new Collection();
 client.slashes = new Collection()
