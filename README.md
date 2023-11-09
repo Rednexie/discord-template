@@ -6,7 +6,7 @@ Features:
 - User Ban/Unban
 - Command Aliases
 - Slash Commands
-- Commands Examples
+- Command Examples
 
 
 # Dependencies
