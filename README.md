@@ -7,7 +7,7 @@ Features:
 - Command Aliases
 - Slash Commands
 - Command Examples
-
+- Integrations for different platforms
 
 # Dependencies
 - discord.js
