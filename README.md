@@ -33,6 +33,14 @@ You can setup the bot by following the instructions for your preferred platform 
 [Run on Replit](https://repl.it/github/Rednexie/discord-template)
 
 
+# Possible Updates
+- Sharding/Clustering to run multiple bots
+- More database options
+   - Mongo
+   - MySQL
+   - JSON
+
+
 [Import into Glitch](https://glitch.com/edit/#!/import/git?url=https://github.com/Rednexie/discord-template)
 
 
