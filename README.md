@@ -2,16 +2,18 @@
 # Discord Bot Template 
 Features:
 - Rate Limiting
-- Admin System
+- Admin Commands
 - User Ban/Unban
 - Command Aliases
+- Slash Commands
+- Commands Examples
+
 
 # Dependencies
 - discord.js
 - perma.db
 - dotenv
 - consoled.js
-
 
  
 # Setup & Usage
