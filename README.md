@@ -7,7 +7,8 @@ Features:
 - Command Aliases
 - Slash Commands
 - Command Examples
-- Integrations for different platforms
+- Integrations for cloud hosting platforms
+- Setup Instructions
 
 # Dependencies
 - discord.js
