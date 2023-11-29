@@ -39,6 +39,8 @@ You can setup the bot by following the instructions for your preferred platform 
 [Create Github Codespace](https://github.com/codespaces/new?quickstart=1&name=discordtemplate&repo=Rednexie/discord-template)
 
 
+[Import into CodeSandbox](https://codesandbox.io/p/github/Rednexie/discord-template)
+
 
 # Possible Updates
 - Sharding/Clustering to run multiple bots
