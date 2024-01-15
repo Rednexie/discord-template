@@ -10,7 +10,7 @@
 
 
 # Git Clone 
-# (Recommended for Unix Based Systems(Linux/Mac) or Termux)
+# (Recommended for Unix-like Systems(Linux/Mac) or Termux)
 - Make sure you have [nodejs](https://nodejs.org) installed on your device.
 - Open a terminal(Ctrl + Alt + T)
 - Navigate to the directory you want to download the repository in, for example:
