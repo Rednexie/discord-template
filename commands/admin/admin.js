@@ -5,7 +5,7 @@ const os = require("os")
 
 const consoled = require("consoled.js")
 
-const { admins } = require("../../config.json")
+const { admins, prefix } = require("../../config.json")
 
 module.exports = {
     config: {
